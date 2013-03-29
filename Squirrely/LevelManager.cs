@@ -7,7 +7,7 @@ namespace SquirrelThePirate2
 {   class LevelManager
     {
         private int currentLevel = -1;
-        private int theEndLevel = 11;
+        private int theEndLevel = 20;
 
         private static readonly Dictionary<int, string> levelsByNumber = new Dictionary<int, string>()
         {
@@ -30,7 +30,8 @@ namespace SquirrelThePirate2
             { 16, "levels/level16.level" },
             { 17, "levels/level17.level" },
             { 18, "levels/level18.level" },
-            { 19, "levels/level19.level" }
+            { 19, "levels/level19.level" },
+            { 20, "levels/level20.level" }
         };
 
         private static readonly Dictionary<string, int> levelsByPassword = new Dictionary<string, int>()
@@ -55,6 +56,7 @@ namespace SquirrelThePirate2
             { "repeating", 17 },
             { "expired", 18 },
             { "stranger", 19 },
+            { "homeward", 20 }
         };
 
         private static readonly Dictionary<int, string> levelPasswords = new Dictionary<int, string>()
@@ -79,6 +81,7 @@ namespace SquirrelThePirate2
             { 17, "repeating" },
             { 18, "expired" },
             { 19, "stranger" },
+            { 20, "homeward" }
         };
 
 

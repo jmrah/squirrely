@@ -40,6 +40,7 @@ namespace SquirrelThePirate2
                     stateManager.ChangeGameState(GameStates.Main);
                     ((MainState)stateManager.CurrentGameState).CurrentLevel = nextLevel;
                 }
+                return;
             }
 
             //
