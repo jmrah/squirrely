@@ -7,7 +7,7 @@ namespace SquirrelThePirate2
 {   class LevelManager
     {
         private int currentLevel = -1;
-        private int theEndLevel = 20;
+        private int theEndLevel = 31;
 
         private static readonly Dictionary<int, string> levelsByNumber = new Dictionary<int, string>()
         {
@@ -31,7 +31,18 @@ namespace SquirrelThePirate2
             { 17, "levels/level17.level" },
             { 18, "levels/level18.level" },
             { 19, "levels/level19.level" },
-            { 20, "levels/level20.level" }
+            { 20, "levels/level20.level" },
+            { 21, "levels/level21.level" },
+            { 22, "levels/level22.level" },
+            { 23, "levels/level23.level" },
+            { 24, "levels/level24.level" },
+            { 25, "levels/level25.level" },
+            { 26, "levels/level26.level" },
+            { 27, "levels/level27.level" },
+            { 28, "levels/level28.level" },
+            { 29, "levels/level29.level" },
+            { 30, "levels/level30.level" },
+            { 31, "levels/level31.level" }
         };
 
         private static readonly Dictionary<string, int> levelsByPassword = new Dictionary<string, int>()
@@ -50,13 +61,24 @@ namespace SquirrelThePirate2
             { "stop", 11 },
             { "attention", 12 },
             { "cup", 13 },
-            { "marshmellow", 14 },
+            { "marshmallow", 14 },
             { "paused", 15 },
             { "chosen", 16 },
             { "repeating", 17 },
             { "expired", 18 },
             { "stranger", 19 },
-            { "homeward", 20 }
+            { "cheesepizza", 20 },
+            { "retriever", 21 },
+            { "blinky", 22 },
+            { "slomo", 23 },
+            { "speedy", 24 },
+            { "birchbark", 25 },
+            { "fastlane", 26 },
+            { "coolrunnings", 27 },
+            { "moped", 28 },
+            { "historica", 29 },
+            { "jillybean", 30 },
+            { "homeward", 31 }
         };
 
         private static readonly Dictionary<int, string> levelPasswords = new Dictionary<int, string>()
@@ -75,13 +97,24 @@ namespace SquirrelThePirate2
             { 11, "stop" },
             { 12, "attention" },
             { 13, "cup" },
-            { 14, "marshmellow" },
+            { 14, "marshmallow" },
             { 15, "paused" },
             { 16, "chosen" },
             { 17, "repeating" },
             { 18, "expired" },
             { 19, "stranger" },
-            { 20, "homeward" }
+            { 20, "cheesepizza" },
+            { 21, "retriever" },
+            { 22, "blinky"  },
+            { 23, "slomo" },
+            { 24, "speedy" },
+            { 25, "birchbark" },
+            { 26, "fastlane" },
+            { 27, "coolrunnings" },
+            { 28, "moped" },
+            { 29, "historica" },
+            { 30, "jillybean" },
+            { 31, "homeward" }
         };
 
 

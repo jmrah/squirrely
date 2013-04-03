@@ -27,7 +27,7 @@ namespace SquirrelThePirate2
         {   this.stateManager = stateManager;
             this.game = game;
             this.levelManager = levelManager;
-            currentLevel = levelManager.GetLevel(0);
+            currentLevel = levelManager.GetLevel(30);
         }
 
         public Level CurrentLevel
